@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Custom styles from the original HTML */
+.header-shadow {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+/* Custom hero image overlay for better text contrast */
+.hero-overlay {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://placehold.co/1200x800/1E1E1E/F6F6F6?text=Modern+Cityscape');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Style for the simulated map */
+.map-placeholder {
+    height: 400px;
+    background-color: #E0E0E0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 0.75rem;
+    border: 1px solid #ccc;
+}
